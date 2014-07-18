@@ -1,18 +1,42 @@
 {
-	"name": "mocha-cobertura-reporter", 
-	"version": "1.0.4", 
-	"description": "simple, flexible, fun test framework", 
-	"keywords": ["cobertura", "mocha", "test", "bdd", "tdd", "tap"], 
-	"author": "Shawn Jonnet <sjonnet19@gmail.com>", 
-	"repository": { "type": "git", "url": "git://github.com/sjonnet19/mocha-cobertura-reporter.git" }, 
-	"main": "./index", 
-	"dependencies": {
-	  "jade": "0.x.x",
-	  "mocha": "1.x.x"
-	},
-	"main": "./index",
-	"bin": {
-		"cobertura": "./bin/cobertura"
-	},
-	"engines": { "node": ">= 0.4.x" }
+  "name": "mocha-cobertura-reporter",
+  "version": "1.0.4",
+  "description": "simple, flexible, fun test framework",
+  "keywords": [
+    "cobertura",
+    "mocha",
+    "test",
+    "bdd",
+    "tdd",
+    "tap"
+  ],
+  "author": {
+    "name": "Shawn Jonnet",
+    "email": "sjonnet19@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sjonnet19/mocha-cobertura-reporter.git"
+  },
+  "main": "./index",
+  "dependencies": {
+    "jade": "0.x.x",
+    "mocha": "1.x.x"
+  },
+  "bin": {
+    "cobertura": "./bin/cobertura"
+  },
+  "engines": {
+    "node": ">= 0.4.x"
+  },
+  "readme": "ERROR: No README data found!",
+  "readmeFilename": "Readme.md",
+  "bugs": {
+    "url": "https://github.com/sjonnet19/mocha-cobertura-reporter/issues"
+  },
+  "homepage": "https://github.com/sjonnet19/mocha-cobertura-reporter",
+  "_id": "mocha-cobertura-reporter@1.0.4",
+  "_shasum": "04a29bf03bc843542a304210ae9f2f9c43cb0fc7",
+  "_resolved": "git://github.com/mmontenegro/mocha-cobertura-reporter#9628d1abf1c7e0f73aae5838077ffa2cb83c7f1c",
+  "_from": "mocha-cobertura-reporter@git://github.com/mmontenegro/mocha-cobertura-reporter"
 }
